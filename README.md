@@ -1,9 +1,8 @@
-![Fabulous Logo](http://i.imgur.com/IMyr4.png "Fabulous")
 ### Deploy django apps to Amazon EC2 with ONE command
 
 First clone the project
     
-    $ git clone https://github.com/gcollazo/Fabulous.git fabfile
+    $ git clone https://github.com/KiteWire/Fabulous.git fabfile
 
 Just change the values of __fabulous_conf.py__ and optionally __cookbook.py__:    
 
@@ -37,6 +36,8 @@ Fabulous will create an EC2 instance, install everything and deploy a blank djan
 * Boto 2.0b4
 
 #### Credits
+Orignial project is located [https://github.com/gcollazo/Fabulous](https://github.com/gcollazo/Fabulous)
+
 The unicorn logo is a courtesy of [Mac McRae](http://macmcrae.com/ "Mac McRae"). You can find his work at [http://macmcrae.com/](http://macmcrae.com/ "Mac McRae Illustration").
 
 #### License
